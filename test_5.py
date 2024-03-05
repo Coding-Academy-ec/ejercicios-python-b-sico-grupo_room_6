@@ -1,5 +1,4 @@
-from programa import suma
+from programa import area_circulo
 
-def test_suma():
-    assert suma(2, 3) == 5
-    assert suma(-1, 5) == 4
+def test_area_circulo():
+    assert area_circulo(2) == 12.566370614359172
