@@ -2,6 +2,7 @@ from programa import imprimir_datos_personales
 from io import StringIO
 import sys
 
+
 def test_imprimir_datos_personales(capsys):
     nombre = "Grupo 6"
     edad = 30
