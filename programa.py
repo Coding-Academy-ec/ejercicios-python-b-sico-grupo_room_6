@@ -1,3 +1,4 @@
+import math
 # # 1 Escribe un programa en Python que imprima tu nombre en la pantalla.
 def imprimir_nombre():
     print("Grupo 6")
@@ -66,7 +67,6 @@ def suma(a, b):
 #     print("La suma es:", suma(num1, num2))  # Se imprime la suma de los dos números ingresados
 
 # 7 Modifica la función que calcula el área del círculo para que reciba el radio como parámetro.
-# import math
 
 def area_circulo(radio):
     area = math.pi * radio ** 2  # Se calcula el área del círculo utilizando la fórmula matemática
